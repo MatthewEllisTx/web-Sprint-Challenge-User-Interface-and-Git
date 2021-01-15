@@ -144,6 +144,7 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+/* man I hate doing this but I can't think of a better way */
 #box1 {
     background: darkcyan;
 }
@@ -174,6 +175,8 @@ header nav a {
 #box10 {
     background: royalblue;
 }
+/* end section */
+
 .bottom-content {
     display: flex;
     /* my code: makes this grow to fit page */
