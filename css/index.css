@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+/* any of my code will have a comment nearby */
 /* my code */
 header {
     margin-bottom: 2.5%;
@@ -96,6 +97,10 @@ header nav a {
 
 .container {
     width: 800px;
+    /* my code: makes container a flex dislpay, allows content to grow */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
     margin: 0 auto;
 }
 
@@ -142,6 +147,8 @@ header nav a {
 
 .bottom-content {
     display: flex;
+    /* my code: makes this grow to fit page */
+        flex: 1 0 auto;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
@@ -157,6 +164,8 @@ header nav a {
 footer {
     width: 100%;
     background: black;
+    /* my code: prevents this from shrinking */
+        flex-shrink: 0;
 }
 
 footer nav {
