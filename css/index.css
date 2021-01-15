@@ -66,6 +66,15 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    width: 800px;
+    /* my code: makes container a flex dislpay, allows content to grow */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    margin: 0 auto;
+}
+
 /* any of my code will have a comment nearby */
 /* my code */
 header {
@@ -94,15 +103,6 @@ header nav a {
     text-decoration: none;
 }
 /* end section */
-
-.container {
-    width: 800px;
-    /* my code: makes container a flex dislpay, allows content to grow */
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    margin: 0 auto;
-}
 
 .top-content {
     display: flex;
@@ -146,10 +146,10 @@ header nav a {
 }
 /* man I hate doing this but I can't think of a better way */
 #box1 {
-    background: darkcyan;
+    background: teal;
 }
 #box2 {
-    background: yellow;
+    background: gold;
 }
 #box3 {
     background: cadetblue;
@@ -161,19 +161,19 @@ header nav a {
     background: crimson;
 }
 #box6 {
-    background: green;
+    background: forestgreen;
 }
 #box7 {
-    background: purple;
+    background: darkorchid;
 }
 #box8 {
-    background: palevioletred;
+    background: hotpink;
 }
 #box9 {
     background: indigo;
 }
 #box10 {
-    background: royalblue;
+    background: dodgerblue;
 }
 /* end section */
 
