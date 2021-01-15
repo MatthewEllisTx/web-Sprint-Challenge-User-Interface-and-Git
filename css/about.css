@@ -68,7 +68,6 @@ p {
 
 /* my code */
 header {
-    border-bottom: 1px dashed black;
     margin-bottom: 2.5%;
 }
 
@@ -97,6 +96,32 @@ header nav a {
     margin: 3%;
     width: 90%;
 }
+
+.middle{
+    display:flex;
+}
+
+section {
+    width: 50%;
+}
+
+.middle section img {
+    border-top: 1px dashed black;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.middle section a {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 2%;
+    margin: 5% 0;
+    width: 100px;
+}
+
 /* end section */
 
 .container {
@@ -162,6 +187,15 @@ header nav a {
 footer {
     width: 100%;
     background: black;
+}
+
+/* more of my code */
+.topFooter {
+    background: white;
+}
+.topFooter h3, p {
+    width: 90%;
+    margin: 3%;
 }
 
 footer nav {
