@@ -144,7 +144,36 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
-
+#box1 {
+    background: darkcyan;
+}
+#box2 {
+    background: yellow;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: green;
+}
+#box7 {
+    background: purple;
+}
+#box8 {
+    background: palevioletred;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: royalblue;
+}
 .bottom-content {
     display: flex;
     /* my code: makes this grow to fit page */
